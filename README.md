@@ -1,7 +1,7 @@
 
----<img width="1451" height="655" alt="christmas3" src="https://github.com/user-attachments/assets/2c00d5c0-3189-4760-929b-59a13084c493" />
-<img width="1267" height="599" alt="christmas" src="https://github.com/user-attachments/assets/cc7e4a5b-1c2f-4db6-920a-b99fbd131bef" />
-<img width="1219" height="709" alt="christmas2" src="https://github.com/user-attachments/assets/4c1a64be-3ad3-4451-a804-f441014d2bcf" />
+---<img width="145,1" height="65,5" alt="christmas3" src="https://github.com/user-attachments/assets/2c00d5c0-3189-4760-929b-59a13084c493" />
+<img width="126,7" height="59,9" alt="christmas" src="https://github.com/user-attachments/assets/cc7e4a5b-1c2f-4db6-920a-b99fbd131bef" />
+<img width="121,9" height="70,9" alt="christmas2" src="https://github.com/user-attachments/assets/4c1a64be-3ad3-4451-a804-f441014d2bcf" />
 
 # Freight Trailer Tree Script for FiveM
 
