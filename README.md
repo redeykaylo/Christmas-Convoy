@@ -1,6 +1,3 @@
-Jasně! Tady je **kompletně přeložené README do angličtiny** s upravenou větou o pádu a fyzice:
-
----
 
 # Freight Trailer Tree Script for FiveM
 
@@ -9,7 +6,6 @@ Jasně! Tady je **kompletně přeložené README do angličtiny** s upravenou v�
 This FiveM resource allows you to add a **tree (`prop_tree_cedar_03`) to every spawned trailer (`trflat`)**, which:
 
 * **stays firmly attached to the trailer**, even when pulled by a truck,
-* **can fall and has physics when colliding with objects, vehicles, or NPCs**,
 * provides **realistic interaction during tree transportation**.
 
 The resource is **client-side**, easy to use and configure.
@@ -20,7 +16,6 @@ The resource is **client-side**, easy to use and configure.
 
 * Automatically spawns a tree on all `trflat` trailer models.
 * Attaches the tree to the trailer with precise position and rotation (tree lying at 90°).
-* Detaches the tree on collision and enables physics for realistic behavior.
 * Resistant to falling under the map thanks to disabled physics while attached.
 
 ---
@@ -30,52 +25,16 @@ The resource is **client-side**, easy to use and configure.
 1. Place the resource folder in your `resources/` directory, for example:
 
 ```
-resources/[custom]/freight_trailer_tree/
+resources/[custom]/redey_christmas_convoy/
 ```
 
 2. Add the following line to your `server.cfg`:
 
 ```cfg
-ensure freight_trailer_tree
+ensure redey_christmas_convoy
 ```
 
 3. Restart the server or resource.
-
----
-
-## Resource Structure
-
-```
-freight_trailer_tree/
-│
-├── fxmanifest.lua
-├── client.lua
-└── README.md
-```
-
----
-
-## Configuration
-
-In `client.lua`, you can adjust:
-
-* Tree offset on the trailer:
-
-```lua
-AttachEntityToEntity(tree, trailer, 0, 0.0, 2.0, 1.3, 90.0, 0.0, 0.0, false, false, false, false, 2, true)
-```
-
-* Speed threshold for tree to fall on collision:
-
-```lua
-if speed > 20.0 and HasEntityCollidedWithAnything(trailer) then
-```
-
-* Force applied when the tree falls:
-
-```lua
-ApplyForceToEntity(tree, 1, 0.0, 0.0, -15.0, 0.0, 0.0, 0.0, 0, false, true, true, false, true)
-```
 
 ---
 
